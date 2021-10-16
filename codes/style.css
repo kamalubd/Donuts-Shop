@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
+
+#wrapper{
+    width: 1080px;
+    margin: 0 auto;    
+}
+
+.clear {clear: both;
+}
+
+
+#site-header {
+    background-color: rgba(160, 235, 145, 0.39);
+    height: 90px;
+}
+
+.logo {
+    float: left;
+    width: 30%;
+}
+
+.logo img{
+    height: 30%;
+    width: 30%;
+    margin-top: 0;
+}
+
+.sitenav {
+    float: right;
+    width: 65%;
+    text-align: right;
+    padding-top: 20px;
+       
+}
+.sitenav a{
+    text-decoration: none;
+    margin-left: 7px;
+    margin-right: 10px;
+}
+
+.sitenav a:hover {
+    color: red;
+    font-weight: 700;
+}
+
+.donut-banner {
+    margin-left: 110px;
+    cursor: pointer;
+    
+}
+
+.donut-banner img {
+    width: 900px;
+    height: auto;
+}
+
+.donut-banner img:hover {
+    transform: rotateX(190deg);
+}
+
+.feature-receipe {
+    font-weight: 800;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+.flex-block {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+      
+}
+
+.flex-block div {
+    margin: 10px;
+    background-color: chocolate;
+    flex-wrap: wrap;
+ 
+}
+
+
+.burger-img img {
+    height: 90px;
+    width: auto;
+    margin: 0px 40px;
+    border: 5px solid aqua;
+    border-radius: 50%;
+    
+}
+
+.donuts-img img {
+    height: 90px;
+    width: auto;
+    margin: 0px 40px;
+    border: 5px solid aqua;
+    border-radius: 50%;
+}
+
+.coffee-img img {
+    height: 90px;
+    width: auto;
+    margin: 0px 40px;
+    border: 5px solid aqua;
+    border-radius: 50%;
+
+}
+
+.cookies-img img {
+    height: 90px;
+    width: auto;
+    margin: 0px 40px;
+    border: 5px solid aqua;
+    border-radius: 50%;
+
+}
+
+.ice-cream-img img {
+    height: 90px;
+    width: auto;
+    margin: 0px 40px;
+    border: 5px solid aqua;
+    border-radius: 50%;
+
+}
+
+.order-button {
+    background-color: rgb(98, 170, 56);
+    width: 100px;
+    height: 30px;
+    margin: 10px 40px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.order-button a{
+    text-decoration: none;
+    font-size: 16px;
+    color: yellow;
+}
+
+.order-button:hover{
+    background-color: #e71fe7;
+}
+
+.left-content{
+    float: left;
+    background-color: cadetblue;
+    width: 47%;
+    margin-left: 8px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.right-content{
+    float: right;
+    background-color: cadetblue;
+    width: 47%;
+    margin-left: 8px;
+    height: 200px;
+    margin-top: 20px;
+    
+}
+
+/*end home page design*/
+
+/*start blog page part*/
+
+.content-wrapper{
+    width: 1080px;
+    margin: 0 auto; 
+}
+
+.blog-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+
+.blog-grid  div {
+    background-color: aliceblue;
+}
+
+.content-title {
+    grid-column: 1 / 4;
+    text-align: center;
+    font-weight: 900;
+}
+
+.content {
+    grid-column: 1 / 4;
+    text-align: justify;
+
+}
+
+
+.right-sidebar-content li{
+    list-style-type: none;
+}
+
+.home-back a{
+    text-decoration: none;
+}
+
+.home-back a:hover{
+    color:rgb(238, 15, 108);
+    font-size: 18px;
+}
