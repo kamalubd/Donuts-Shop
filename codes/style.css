@@ -171,7 +171,53 @@ body {
     
 }
 
+.footer-section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: rgb(241, 160, 224);
+    padding: 20px 0;
+    margin-top: 10px;
+}
+
+.footer-section div {
+    background-color: cornsilk;
+}
+
+.footer-address li{
+    list-style-type: none;
+    
+}
+
+.footer-menu {
+    text-align: center;
+}
+
+.footer-menu li{
+    list-style-type: none;
+    }
+
+.footer-menu a {
+    text-decoration: none;
+    color: rgb(21, 134, 240);
+    font-weight: bold;
+}
+
+.footer-menu a:hover{
+    text-decoration: underline;
+    color: hotpink;
+}
+
+
+.social-icon {
+    text-align: center;
+    font-size: 50px;
+    padding: 50px 0;
+}
+
 /*end home page design*/
+--------------------------------------------------------
+--------------------------------------------------------
 
 /*start blog page part*/
 
