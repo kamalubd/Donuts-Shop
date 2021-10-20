@@ -2,6 +2,7 @@
     box-sizing: border-box;
   }
 
+
 body {
     font-family: 'Open Sans';
     font-size: 16px;
@@ -24,6 +25,7 @@ body {
 .logo {
     float: left;
     width: 30%;
+    cursor: pointer;
 }
 
 .logo img{
@@ -37,6 +39,12 @@ body {
     width: 65%;
     text-align: right;
     padding-top: 20px;
+
+}
+
+.sitenav li{
+    list-style-type: none;
+    display: inline;
        
 }
 .sitenav a{
@@ -48,6 +56,8 @@ body {
 .sitenav a:hover {
     color: red;
     font-weight: 700;
+    border: 2px solid palevioletred;
+    border-radius: 5px;
 }
 
 .donut-banner {
@@ -225,6 +235,62 @@ body {
     width: 1080px;
     margin: 0 auto; 
 }
+
+.original-items {
+    padding-top: 25px;
+    padding-right: 10px;
+    padding-left: 100px;
+}
+
+.original-items > li {
+    padding: 0 10px;
+    
+}
+
+.blog-menu-item ul{
+    list-style-type: none;
+    
+    
+    }
+
+.blog-menu-item ul li{
+    float: right;
+    position: relative;
+    padding-left: 10px;
+}
+
+.blog-menu-item ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    
+    
+}
+
+.blog-menu-item ul li a:hover {
+    border: 2px solid rgb(236, 111, 132);
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.dropdown-content{
+    position: absolute;
+    top: 100%;
+    padding: 2px;   
+    background-color: #e71fe7; 
+    float: none;
+    visibility: hidden;
+
+    }
+
+.dropdown-content a:hover{
+    background-color: rgb(44, 231, 27);
+}
+
+.icecream-menu:hover .dropdown-content {
+    visibility: visible;
+}
+
 
 .blog-grid{
     display: grid;

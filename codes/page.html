@@ -13,7 +13,7 @@
 </head>
 <body>
 
- <div class="content-wrapper">
+ <div id="wrapper">
 <!--start nav content-->
 
 <header id="site-header">
@@ -21,15 +21,29 @@
     <img src="/images/logo.png" alt="dans donut shop">
     </div>
     
-<nav class="sitenav">
-    <a href="#">Donuts</a>
-    <a href="#">Coffee</a>
-    <a href="#">Cookies</a>
-    <a href="#">Ice Cream</a>
-    <a href="#">Burger</a>
-    <a href="/codes/page.html">Blog</a>
-    </nav>
-    <div class="clear"></div>
+<nav id="blog-menu">
+    <div class="blog-menu-item">
+    <ul class="original-items">
+        <li><a href="#">Donuts</a></li>
+        <li> <a href="#">Coffee</a></li>
+        <li><a href="#">Cookies</a></li>
+        <li class="icecream-menu"> <a href="#">Ice Cream</a>
+
+            <ul class="dropdown-content">
+                <li><a href="#">Mango Flavor</a></li>
+                <li><a href="#">Orange Flavor</a></li>
+                <li><a href="#">Straberry Flavor</a></li>
+                <li><a href="#">Vanilla Flavor</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Burger</a</li>
+        <li><a href="#">Blog</a></li>
+    </ul>
+
+</div>
+<div class="clear"></div>
+</nav>
+    
 
     <!--end nav content-->
 
